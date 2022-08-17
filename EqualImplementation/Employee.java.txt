@@ -1,0 +1,26 @@
+public class Employee{
+
+    String id;
+    String code;
+    String NIC;
+    String address;
+
+    public Employee(String id, String code, String NIC, String address) {
+        this.id = id;
+        this.code = code;
+        this.NIC = NIC;
+        this.address = address;
+    }
+
+    public Employee(){
+	}
+
+	public String getId(){
+	return id;
+	}
+	public void SetId(String id){
+	this.id = id;
+	}
+	
+
+}
