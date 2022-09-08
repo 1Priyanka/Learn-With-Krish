@@ -1,0 +1,21 @@
+.progress-bar-base{
+    background-color:#808080;
+}
+.progress-bar{
+    height : 15px;
+    width: 0px;
+}
+.progress-bar.red{
+    background-color: crimson;
+
+}
+  .progress-bar.yellow {
+    background-color: orange;
+  }
+
+  .progress-bar.green {
+    background-color: darkgreen;
+  }
+  .progress-bar.purple {
+    background-color: mediumpurple;
+  }
